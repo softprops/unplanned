@@ -11,7 +11,7 @@ create an executable
     cp target/scala_2.7.7/unplanned.jar path/to/somewhere/in/$PATH
     echo 'java -Xmx512M -jar `dirname $0`/unplanned.jar "$@"' > path/to/somewhere/in/$PATH
 
-serve anything anywhere
+serve anything from anywhere
 
     cd path/to/anywhere/
     unplanned
