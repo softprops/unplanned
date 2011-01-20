@@ -18,6 +18,6 @@ serve anything from anywhere
 
 This will start an http server serving static content from your current directory* on `0.0.0.0:{the_next_available_port}`
 
-* The directory must be rewritable. The unplanned server writes an empty temp file in the current working directory for context
+* The directory must be writable. The unplanned server writes an empty temp file in the current working directory for context
 
 doug tangren (softprops) 2011
