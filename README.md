@@ -20,4 +20,9 @@ This will start an http server serving static content from your current director
 
 * The directory must be writable. The unplanned server writes an empty temp file in the current working directory for context
 
+    cd path/to/anywhere
+    unplanned -p 1234
+
+This will start an http server the same as above but with an explicit port `1234`
+
 doug tangren (softprops) 2011
