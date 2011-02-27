@@ -1,0 +1,12 @@
+[app]
+  version: 0.0.1-SNAPSHOT
+  org: me.lessis
+  name: unplanned
+  class: unplanned.Server
+[scala]
+  version: 2.8.1
+[repositories]
+  local
+  maven-local
+  scala-tools-releases
+  maven-central
