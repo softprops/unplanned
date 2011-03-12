@@ -10,7 +10,7 @@ Create a [conscript](https://github.com/n8han/conscript/#README)
 
 This will create an executable called `up` in `~/usr/bin`
 
-or you can go old school and create an self contained executable by hand
+or you can go old school and create a self contained executable by hand
 
     git clone git://github.com/softprops/unplanned.git && cd unplanned
     sbt update assembly
