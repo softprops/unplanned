@@ -15,4 +15,4 @@ Need a specific port? Use `up -p 8080`.
 
 That is all.
 
-[cs]: https://github.com/n8han/conscript
+[cs]: https://github.com/n8han/conscript/#readme

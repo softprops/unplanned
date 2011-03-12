@@ -14,7 +14,7 @@ or you can go old school and create a self contained executable by hand
 
     git clone git://github.com/softprops/unplanned.git && cd unplanned
     sbt update assembly
-    cp target/scala_2.7.7/unplanned.jar path/to/somewhere/in/$PATH
+    cp target/scala_2.8.1/unplanned.jar path/to/somewhere/in/$PATH
     # put it in a shell script
     echo 'java -Xmx512M -jar `dirname $0`/unplanned.jar "$@"' > path/to/somewhere/in/$PATH/up
 
