@@ -15,7 +15,7 @@ or you can go old school and create a self contained executable by hand
     git clone git://github.com/softprops/unplanned.git && cd unplanned
     sbt update assembly
     cp target/scala_2.7.7/unplanned.jar path/to/somewhere/in/$PATH
-    # put in a shell script
+    # put it in a shell script
     echo 'java -Xmx512M -jar `dirname $0`/unplanned.jar "$@"' > path/to/somewhere/in/$PATH/up
 
 ## usage
@@ -23,12 +23,12 @@ or you can go old school and create a self contained executable by hand
 serve anything from anywhere
 
     cd path/to/anywhere/
-    unp
+    up
 
 This will start an http server serving static content from your current directory* on `0.0.0.0:{the_next_available_port}`
 
     cd path/to/anywhere/
-    un -p 1234
+    up -p 1234
 
 This will start an http server the same as above but with an explicit port `1234`
 
