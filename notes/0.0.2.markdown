@@ -1,0 +1,18 @@
+# instant http!
+
+A humble scala alternative to `python -m SimpleHTTPServer`
+
+* simple installation with [Conscript][cs]
+
+    cs softprops/unplanned
+
+will install a conscript called `up` in your local `~/bin` directory.
+
+Then, from any directory containing static files just type `up` and you get an
+instant http server listening on the first available port.
+
+Need a specific port? Use `up -p 8080`.
+
+That is all.
+
+[cs]: https://github.com/n8han/conscript

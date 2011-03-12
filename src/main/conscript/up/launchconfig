@@ -1,5 +1,5 @@
 [app]
-  version: 0.0.1-SNAPSHOT
+  version: 0.0.2
   org: me.lessis
   name: unplanned
   class: unplanned.UnplannedScript
