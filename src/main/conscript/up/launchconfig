@@ -6,6 +6,7 @@
 [scala]
   version: 2.8.1
 [repositories]
+  http://repo.lessis.me
   local
   maven-local
   scala-tools-releases
